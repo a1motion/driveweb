@@ -4,11 +4,11 @@ Driveweb Interface
 ## Install
 With ```yarn```:
 ```
-yarn add driveweb
+yarn add @a1motion/driveweb
 ```
 or with `npm`:
 ```bash
-npm i -S driveweb
+npm i -S @a1motion/driveweb
 ```
 
 ## Usage

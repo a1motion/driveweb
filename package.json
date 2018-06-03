@@ -1,5 +1,5 @@
 {
-  "name": "driveweb",
+  "name": "@a1motion/driveweb",
   "version": "1.0.0",
   "description": "Driveweb Interface",
   "main": "index.js",

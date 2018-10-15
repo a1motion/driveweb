@@ -1,4 +1,4 @@
-export = class DriveInterface {
+export class DriveInterface {
   constructor(ip:string);
   getParameter(id: number): Promise<number>;
   getParameters(ids: number[]): Promise<number[]>;

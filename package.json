@@ -5,6 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "types": "index.d.ts",
+  "repository": "a1motion/driveweb",
   "scripts": {
     "test": "exit 0"
   },

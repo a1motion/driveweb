@@ -6,13 +6,22 @@
   "license": "MIT",
   "types": "index.d.ts",
   "repository": "a1motion/driveweb",
+  "files": [
+    "lib/",
+    "index.js",
+    "index.d.ts"
+  ],
   "scripts": {
     "test": "exit 0"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-a1motion": "^1.0.2",
-    "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-react": "^7.12.4"
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.1.0",
+    "eslint-config-a1motion": "3.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-formatter-pretty": "^2.1.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "^1.18.2"
   }
 }

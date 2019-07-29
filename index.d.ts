@@ -1,9 +1,10 @@
-export class DriveInterface {
+export default class DriveInterface {
   constructor(ip:string);
-  getParameter(id: number): Promise<number>;
-  getParameters(ids: number[]): Promise<number[]>;
-  setParameter(id: number, value: number): Promise<number>;
+  getParameter(id: number): PromiseLike<number>;
+  getParameters(ids: number[]): PromiseLike<number[]>;
+  getFloatParameter(id: number): PromiseLike<number>;
+  setParameter(id: number, value: number): PromiseLike<number>;
   setParameters(IdsAndValues: {
     [id:number]: number
-  }): Promise<number[]>;
+  }): PromiseLike<number[]>;
 }

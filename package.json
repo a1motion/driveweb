@@ -1,6 +1,6 @@
 {
   "name": "@a1motion/driveweb",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "description": "Driveweb Interface",
   "main": "index.js",
   "license": "MIT",

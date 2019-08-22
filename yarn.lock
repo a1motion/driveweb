@@ -357,13 +357,14 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-a1motion@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-a1motion/-/eslint-config-a1motion-3.0.1.tgz#85b79ebd9cb8cb7716b517bae3e85ad2a7b704c3"
-  integrity sha512-bsZ0ycbTjK51SPApiKV98jZWpQp6ZJ9lphtDVSSwdi//MKsIhjE5sWjHpgRNLOGNqiCUTcMNhplvM7la2hesHA==
+eslint-config-a1motion@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-config-a1motion/-/eslint-config-a1motion-3.0.2.tgz#e99fa19054f7ae43d6d1b1627e8a76f99e781272"
+  integrity sha512-KjdLMOkugNnuCa16NnX4MAYl4HiUdxtGa+SKyKUSZySGzE4+vPlBZC3uNkWkwl5Ge42PRA6Hlg9DJ1ZJGGsRQA==
   optionalDependencies:
     "@typescript-eslint/eslint-plugin" ">=1.13.0"
     "@typescript-eslint/parser" ">=1.13.0"
+    eslint-plugin-react ">=7.14.2"
 
 eslint-config-prettier@^6.0.0:
   version "6.0.0"
@@ -392,7 +393,7 @@ eslint-plugin-prettier@^3.1.0:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-react@^7.14.3:
+eslint-plugin-react@>=7.14.2, eslint-plugin-react@^7.14.3:
   version "7.14.3"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.14.3.tgz#911030dd7e98ba49e1b2208599571846a66bdf13"
   integrity sha512-EzdyyBWC4Uz2hPYBiEJrKCUi2Fn+BJ9B/pJQcjw5X+x/H2Nm59S4MJIvL4O5NEE0+WbnQwEBxWY03oUk+Bc3FA==
